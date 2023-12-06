@@ -1,4 +1,4 @@
-package Dynamic_programming;
+package dsa.Dynamic_programming.unbounded_knapsack;
 
 public class Top_down {
     public static int Unbounded_knapsack(int wt[],int[] val,int n,int capacity){

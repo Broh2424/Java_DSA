@@ -1,4 +1,4 @@
-package Dynamic_programming;
+package dsa.Dynamic_programming.knapsack.Minimum_subset_sum;
 
 public class Top_down {
     public static int findMin(int arr[],int n){

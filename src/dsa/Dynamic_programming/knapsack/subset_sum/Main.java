@@ -1,4 +1,4 @@
-package Dynamic_programming;
+package dsa.Dynamic_programming.knapsack.subset_sum;
 
 import java.util.Arrays;
 

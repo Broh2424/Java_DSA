@@ -1,4 +1,4 @@
-package Searching_techniques;
+package dsa.Searching_techniques.q1;
 
 
 //{ Driver Code Starts

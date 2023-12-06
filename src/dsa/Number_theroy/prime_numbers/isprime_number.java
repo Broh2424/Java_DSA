@@ -1,4 +1,4 @@
-package Number_theory;
+package dsa.Number_theroy.prime_numbers;
 
 public class isprime_number {
     public static Boolean isPrime(int N){

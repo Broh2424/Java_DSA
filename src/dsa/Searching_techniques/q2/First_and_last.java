@@ -1,6 +1,6 @@
 //First and last occurrences of X
 
-package Searching_techniques;
+package dsa.Searching_techniques.q2;
 
 
 

@@ -1,4 +1,4 @@
-package Dynamic_programming;
+package dsa.Dynamic_programming.knapsack.subset_sum;
 
 class Memozisation {
    public static int isSubsetSum(int set[],int n,int sum,int dp[][]){

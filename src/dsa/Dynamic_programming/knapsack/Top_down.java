@@ -1,4 +1,4 @@
-package Dynamic_programming;
+package dsa.Dynamic_programming.knapsack;
 
 public class Top_down {
     public  static int topdown(int wt[], int val[], int n, int W){

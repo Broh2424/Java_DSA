@@ -1,4 +1,4 @@
-
+package dsa.Number_theroy;
 
 public class Main {
     public static void main(String[] args) {

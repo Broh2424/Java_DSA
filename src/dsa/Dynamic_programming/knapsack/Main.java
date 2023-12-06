@@ -1,4 +1,4 @@
-package Dynamic_programming;
+package dsa.Dynamic_programming.knapsack;
 
 public class Main {
     public static void main(String[] args) {
@@ -9,7 +9,7 @@ public class Main {
         int n = wt.length;
 
         System.out.println("The Maximum value of items, thief can steal is(in memozisation "+
-                Memozisation.memozisation(wt,val,n,W));
+                Dynamic_programming.Memozisation.memozisation(wt,val,n,W));
         System.out.println("The Maximum value of items, thief can steal is(in top_down "+
                 Top_down.topdown(wt,val,n,W));
 

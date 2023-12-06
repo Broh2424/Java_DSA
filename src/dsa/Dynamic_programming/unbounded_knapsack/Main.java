@@ -1,6 +1,5 @@
-package Dynamic_programming;
+package dsa.Dynamic_programming.unbounded_knapsack;
 
-import knapsack.Memozisation;
 
 public class Main {
     public static void main(String[] args){
