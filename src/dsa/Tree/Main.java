@@ -4,16 +4,23 @@ package dsa.Tree;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        BinaryTree tree = new BinaryTree();
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        // Inserting elements into the tree
+        tree.insert(50);
+        tree.insert(70);
+        tree.insert(60);
+        tree.insert(20);
+        tree.insert(90);
+        tree.insert(10);
+        tree.insert(40);
+        tree.insert(100);
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }
+        // Performing in-order traversal
+        System.out.println("In-order traversal of the binary tree:");
+        tree.inorder();
+        tree.preorder();
+        tree.postorder();
+        tree.postorder1();
     }
 }
